@@ -1,0 +1,89 @@
+.App {
+  font: normal 14px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  color: rgb(43, 43, 43);
+}
+
+body {
+  margin: 0px;
+}
+
+.menu-header {
+  font-weight: bolder;
+  font-size: 24px;
+  padding-top: 20px;
+  color: darkorange;
+  padding-left: 28%;
+  padding-bottom: 20px;
+}
+
+.menu-section {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-areas:
+    "food drinks checkout"
+    "dessert sides checkout"
+    "footer footer checkout";
+  
+
+  &-title {
+    font-weight: bold;
+    display: block;
+    padding: 22px;
+    color: darkorange;
+  }
+
+  &-DESSERT {
+    grid-area: dessert;
+  }
+
+  &-SIDES {
+    grid-area: sides;
+  }
+
+  &-checkout {
+    padding: 20px;
+    max-height: 230px;
+    overflow-y: auto;
+    border: 2px solid;
+   background: rgb(43, 43, 43);
+   color: white;
+
+    span {
+      font-weight: bold;
+      padding: 20px;
+      color: #52b997;
+    }
+  }
+
+  .menu-item-flex {
+    display: flex;
+
+    div {
+      padding: 20px;
+      width: 25%;
+    }
+
+    button {
+      align-self: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+.checked-out-items {
+  display: flex;
+  grid-area: checkout;
+
+  div {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+  }
+}
+
+.total-price {
+  display: flex;
+  font-weight: bold;
+  padding: 40px;
+  font-size: 20px;
+  color: #52b997;
+}

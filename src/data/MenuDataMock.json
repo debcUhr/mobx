@@ -1,0 +1,78 @@
+[
+    {
+        "product": "Lamb scrumpets",
+        "price": 980,
+        "category": "FOOD"
+    },
+    {
+        "product": "Lobster spaghetti",
+        "price": 780,
+        "category": "FOOD"
+    },
+    {
+        "product": "Roast salmon",
+        "price": 720,
+        "category": "FOOD"
+    }
+    ,
+    {
+        "product": "Branzino fillet",
+        "price": 860,
+        "category": "FOOD"
+    },
+    {
+        "product": "Coke",
+        "price": 200,
+        "category": "DRINKS"
+    },
+    {
+        "product": "Beer",
+        "price": 170,
+        "category": "DRINKS"
+    },
+    {
+        "product": "Bottled Water",
+        "price": 70,
+        "category": "DRINKS"
+    },
+    {
+        "product": "Iced Tea",
+        "price": 250,
+        "category": "DRINKS"
+    },
+    {
+        "product": "Buttered french beans",
+        "price": 220,
+        "category": "SIDES"
+    },
+    {
+        "product": "Simple leaf salad side",
+        "price": 160,
+        "category": "SIDES"
+    },
+    {
+        "product": "Twice cooked chips ",
+        "price": 180,
+        "category": "SIDES"
+    },
+    {
+        "product": "Oreo Cheesecake",
+        "price": 50,
+        "category": "DESSERT"
+    },
+    {
+        "product": "Apple Pie",
+        "price": 50,
+        "category": "DESSERT"
+    },
+    {
+        "product": "Chocolate Cookie",
+        "price": 50,
+        "category": "DESSERT"
+    },
+    {
+        "product": "Ice Cream",
+        "price": 50,
+        "category": "DESSERT"
+    }
+]
